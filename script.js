@@ -4,10 +4,10 @@
 // ======= LOADED PAGE (loading will be end after document is loaded)==========
 const preloader = document.querySelector("[data-preload]");
 
-window.addEventListener("load", function(){
+window.addEventListener("DOMContentLoaded", function(){
   preloader.classList.add("loaded")
   document.body.classList.add("loaded");
-})
+});
 
 
 // add event listener on multiple elements
