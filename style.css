@@ -463,7 +463,7 @@ position: absolute;
 
 .img-holder{
   aspect-ratio: 285/336;
-  width: 285px;
+  /* width: 285px; */
   height: auto;
   overflow: hidden;
   background-color: var(--eerie-black-4);
