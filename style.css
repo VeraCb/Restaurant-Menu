@@ -517,6 +517,21 @@ position: absolute;
   }
 }
 
+.has-bg-image{
+  background-image: url(./img/testimonial-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+
+
+
+
+
+
 
 
 /*-----------------------------------*\
@@ -1201,6 +1216,58 @@ padding-inline-start: 50px;
 /*-----------------------------------*\
   #TESTIMONIALS
 \*-----------------------------------*/
+
+.testi{
+  padding-block-end: 340px;
+  position: static;
+}
+.testi .quote{
+  font-size: 7rem;
+  font-family: var(--fontFamily-forum);
+  line-height: 0.7rem;
+}
+
+.testi .wrapper{
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  margin-block: 40px 50px;
+}
+
+.testi .separator{
+  animation: rotate360 15s linear infinite;
+}
+.profile .img{
+  margin-inline: auto;
+  border-radius: var(--radius-circle);
+  border: 1px solid var(--gold-crayola);
+  margin-block-end: 15px;
+}
+.testi .profile-name{
+  color: var(--gold-crayola);
+  font-weight: var(--weight-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--letterSpacing-3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
