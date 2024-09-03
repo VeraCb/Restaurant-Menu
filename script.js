@@ -33,8 +33,9 @@ const toggleNavbar = function() {
 addEventOnElements(navTogglers, "click", toggleNavbar);
 
 
-// ========== HEADER ============
+// ========== HEADER & BACK TO TOP BTN============
 const header = document.querySelector("[data-header]");
+const backTopBtn = document.querySelector("[data-back-top-btn]")
 
 let lastScrollPos = 0;
 
@@ -52,9 +53,13 @@ lastScrollPos = window.scrollY;
 window.addEventListener("scroll", function(){
   if(window.scrollY >= 50){
     header.classList.add("active")
+    backTopBtn.classList.add("active")
+
     hideHeader();
   } else {
     header.classList.remove("active")
+    backTopBtn.classList.remove("active")
+
   }
 })
 
@@ -137,3 +142,7 @@ window.addEventListener("mousemove", function(event){
 
   }
 });
+
+
+
+
